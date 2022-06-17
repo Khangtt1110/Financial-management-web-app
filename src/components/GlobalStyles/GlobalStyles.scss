@@ -1,0 +1,48 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700;800&display=swap');
+
+:root {
+    --primary: #c8ee44;
+    --black: #000;
+    --white: #fff;
+
+    --text-color: #1b212d;
+    --font-family: 'Kumbh Sans', sans-serif;
+    // //Default layout
+    // --default-layout-header-height: 60px;
+    // --default-layout-width: 1150px;
+    // --default-layout-horizontal-spacer: 24px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-color);
+    overflow-x: overlay;
+    font-weight: 600;
+}
+
+button,
+input,
+[tabindex] {
+    border: none;
+    outline: none;
+}
+
+a[href] {
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}

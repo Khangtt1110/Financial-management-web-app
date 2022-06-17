@@ -1,0 +1,38 @@
+.wrapper {
+    width: 250px;
+    background: #fafafa;
+    height: 100vh;
+}
+
+.container {
+    margin: 30px 25px;
+}
+
+.list-icon {
+    margin-top: 40px;
+    margin-bottom: 354px;
+}
+
+.btn-sidebar {
+    color: #929eae;
+    display: flex;
+    font-size: 1.4rem;
+    padding: 14px 70px 14px 15px;
+    align-items: center;
+    border-radius: 8px;
+    margin-bottom: 2px;
+
+    & > img {
+        margin-right: 14px;
+        color: red;
+        opacity: 0.5;
+    }
+}
+
+.btn-active {
+    background: var(--primary);
+    color: var(--text-color);
+    & > img {
+        opacity: 1;
+    }
+}

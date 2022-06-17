@@ -1,0 +1,18 @@
+.login-page {
+    display: flex;
+    --width-form: 404px;
+}
+
+.container {
+    margin: 40px 0 0 135px;
+    width: var(--width-form);
+}
+
+.image {
+    justify-content: flex-end;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: auto;
+    & > img {
+        height: 100vh;
+    }
+}
